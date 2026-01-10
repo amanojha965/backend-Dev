@@ -1,0 +1,70 @@
+UNIX AND GIT COMMANDS NOTES
+
+UNIX COMMANDS:-
+
+pwd                     # Show current working directory
+ls                      # List files and directories
+ls -l                   # Long listing format
+ls -a                   # Show hidden files
+ls -lh                  # Human readable sizes
+
+cd folder               # Change directory
+cd ..                   # Go one level up
+cd ~                    # Go to home directory
+
+mkdir test              # Create directory
+mkdir -p a/b/c          # Create nested directories
+
+rmdir test              # Remove empty directory
+rm file.txt             # Remove file
+rm -r folder            # Remove directory recursively
+rm -rf folder           # Force delete directory
+
+touch file.txt          # Create empty file
+cp a.txt b.txt          # Copy file
+cp -r dir1 dir2         # Copy directory
+mv old.txt new.txt      # Rename or move file
+
+cat file.txt            # Show file content
+less file.txt           # Scrollable view
+head file.txt           # First 10 lines
+tail file.txt           # Last 10 lines
+tail -f log.txt         # Live log view
+
+chmod 755 file.sh       # Change permissions
+chmod +x file.sh        # Make executable
+chown user:group file   # Change owner
+
+grep "text" file.txt    # Search text
+find / -name "*.txt"    # Find files
+sort file.txt           # Sort lines
+uniq file.txt           # Remove duplicates
+
+
+GIT COMMANDS:-
+
+git init                # Initialize repository
+git status              # Check repo status
+git add file.txt        # Stage file
+git add .               # Stage all files
+git commit -m "msg"     # Commit changes
+
+git log                 # View commit history
+git log --oneline       # Short log view
+git diff                # View changes
+
+git branch              # List branches
+git branch new-branch   # Create branch
+git checkout branch     # Switch branch
+git checkout -b branch  # Create and switch branch
+
+git merge branch        # Merge branch
+git branch -d branch    # Delete branch
+
+git remote -v           # Show remotes
+git remote add origin URL # Add remote
+git push origin main    # Push to GitHub
+git pull origin main    # Pull from GitHub
+
+git stash               # Save work temporarily
+git stash pop           # Restore stashed work
