@@ -1,0 +1,14 @@
+Git Commands:- 
+
+1. git clone :- It clones the directory.
+2. git add <filename.txt> :- It is used to stage a specific file in Git. (Staging means you’re telling Git: “I want to include this file in the next commit.”)
+3. git commit -m "message!" :- It is used to save (commit) the staged changes to the Git repository with a short description.
+4. git add . :- It Stages ALL changes in the current directory and its sub-directories.
+5. git checkout -b <branch-name> :- It create and switch to a new branch.
+6. git checkout <branch-name> :- It move from one branch to another.
+7. git branch -m <new-name> :- It is use to rename the current branch.
+8. git switch <branch-name> :- It is used for branch switching.
+9. git rm <file-name> :- It removes th file.
+10. git log :- It shows who committed what, when, and with which commit ID. (It shows the history)
+11. git pull origin :- This command fetches the latest changes from the remote repository named origin and merges them into your current branch.
+12. git branch -d <branch-name> :- It deletes the branch only if it is already merged.
